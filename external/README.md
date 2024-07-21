@@ -28,7 +28,11 @@
 5. Run this command to compile your Tailwind CSS
    `npx tailwindcss -i ./resources/input.css -o ./webroot/css/app.css --watch --minify`
 
-Reference: https://www.blle.co/blog/cakephp-tailwind#:~:text=How%20to%20set%20up%20Tailwind%20CSS%20with%20Cake%20PHP&text=%40tailwind%20base%3B%20%40tailwind%20components,include%20it%20on%20your%20page.
+Reference:
+
+- https://tailwindcss.com/docs/installation
+
+- https://www.blle.co/blog/cakephp-tailwind#:~:text=How%20to%20set%20up%20Tailwind%20CSS%20with%20Cake%20PHP&text=%40tailwind%20base%3B%20%40tailwind%20components,include%20it%20on%20your%20page.
 
 ### Tailwind Documentation
 
@@ -36,5 +40,5 @@ https://tailwindcss.com/docs/installation
 
 ### Templates
 
--   https://github.com/themesberg/flowbite-admin-dashboard
--   https://github.com/surjithctly/astroship/
+- https://github.com/themesberg/flowbite-admin-dashboard
+- https://github.com/surjithctly/astroship/

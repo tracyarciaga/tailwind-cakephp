@@ -1,8 +1,9 @@
 # How to use Tailwind in Cakephp
 
-1. Create a new folder "tailwind"
-2. Run `npx tailwindcss init` to create `tailwind.config.js` file
-3. Add this to the content section of your
+1. Create a new folder "tailwind" - `mkdir tailwind`
+2. `cd tailwind`
+3. Run `npx tailwindcss init` to create `tailwind.config.js` file
+4. Add this to the content section of your
 
 ```
     content: [
@@ -22,6 +23,12 @@
 @layer base {
     body {
         @apply text-gray-600 font-sans;
+    }
+}
+
+@layer components {
+    .btn-primary {
+        @apply py-2 px-5 bg-violet-500 text-white font-semibold rounded-full shadow-md hover:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-400 focus:ring-opacity-75;
     }
 }
 ```

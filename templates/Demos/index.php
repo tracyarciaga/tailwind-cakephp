@@ -12,5 +12,8 @@ $this->assign('title', __('その他'));
         <p class="text-slate-500 dark:text-slate-400 mt-2 text-sm">
             This is a container in the index page using Tailwind!
         </p>
+        <button class="btn-primary">
+            Save changes
+        </button>
     </div>
 </div>
